@@ -1,0 +1,11 @@
+<view class="container">
+  <image class="bgaudio"
+    src="{{!changedImg ? 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000':'/image/song.png'}}">
+  </image>
+  <view class="control-view">
+    <image src="/image/prev.png" bindtap="postionTap" data-how="-1"></image>
+    <image src="/image/{{!isPlaying?'play':'pause'}}.png" bindtap="audioTap"></image>
+    <image src="/image/stop.png" bindtap="stopTap"></image>
+    <image src="/image/next.png" bindtap="postionTap" data-how="1"></image>
+  </view>
+</view>

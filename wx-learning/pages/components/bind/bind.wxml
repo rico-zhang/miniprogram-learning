@@ -1,0 +1,10 @@
+<text>{{name}}</text>
+{{list}}
+{{obj}}
+<view class="{{flag?'red':'green'}}">
+nihk
+</view>
+<view wx:for="{{studentScroes}}" wx:key="*this" wx:for-item="myitem" wx:for-index="myinex">{{myitem}},{{myinex}}</view>
+<view wx:if="{{score>=80}}">优秀</view>
+<view wx:elif="{{score>=60}}">及格</view>
+<view wx:else>不及格</view>

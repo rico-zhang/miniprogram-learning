@@ -1,0 +1,4 @@
+<view class="box" animation="{{boxAmimation}}">
+
+</view>
+<button bindtap="startMove" type="primary">开始动画</button>

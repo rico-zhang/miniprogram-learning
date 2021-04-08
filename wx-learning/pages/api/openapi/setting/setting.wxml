@@ -1,0 +1,2 @@
+<button type="primary" bindtap="openSetting">打开系统设置页</button>
+<button type="primary" bindtap="getSetting">获取设置信息</button>

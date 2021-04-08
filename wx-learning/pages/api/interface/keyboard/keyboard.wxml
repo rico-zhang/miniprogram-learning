@@ -1,0 +1,3 @@
+<input placeholder="inputHeight" bindinput="getSeletedTextRange"></input>
+
+<button type="primary" bindtap="hideKeyboard">隐藏键盘</button>

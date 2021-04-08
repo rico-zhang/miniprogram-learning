@@ -1,0 +1,1 @@
+<button bindtap="chooseAddress" type="primary">选择收获地址</button>

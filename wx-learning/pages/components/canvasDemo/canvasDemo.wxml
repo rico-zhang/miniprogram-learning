@@ -1,0 +1,20 @@
+<view class="my-container">
+  <!-- 画布区 -->
+  <view class="canvas-area">
+    <canvas canvas-id="myCanvas" class="my-canvas" disable-scroll bindtouchstart="touchStart" bindtouchmove="touchMove"
+      bindtouchend="touchEnd"></canvas>
+  </view>
+  <!-- 画布工具区 -->
+  <view class="canvas-tools">
+    <!-- 细笔 -->
+    <view class="box box1" data-param="5" bindtap="penSelect"></view>
+    <!-- 粗笔 -->
+    <view class="box box2" data-param="15" bindtap="penSelect"></view>
+    <!-- 黄色笔 -->
+    <view class="box box3" data-param="#c03" bindtap="colorSelect"></view>
+    <!-- 红色笔 --> 
+    <view class="box box4" data-param="#f90" bindtap="colorSelect"></view>
+    <!-- 橡皮 -->
+    <view class="box box5" bindtap="clearCanvas"></view>
+  </view>
+</view>

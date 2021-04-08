@@ -1,0 +1,7 @@
+<view class="container">
+  <text>{{detail}}</text>
+  <view>125</view>
+</view>
+
+<button type="primary" bindtap="copyTBL">一键复制</button>
+<button type="primary" bindtap="show">读取</button>

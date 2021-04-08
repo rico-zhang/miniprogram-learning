@@ -1,0 +1,2 @@
+<button type="primary" bindtap="getBatteryInfoSync">获取电量信息[同步]</button>
+<button type="primary" bindtap="getBatteryInfo">获取电量信息[异步]</button>

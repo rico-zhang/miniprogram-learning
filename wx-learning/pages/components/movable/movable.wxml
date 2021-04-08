@@ -1,0 +1,17 @@
+<view> 全方位移动</view>
+<movable-area class="area">
+  <movable-view direction="all" class="view" ></movable-view>
+</movable-area>
+
+<view> 在一个area中多个view，移动方向不一样</view>
+<movable-area class="area">
+  <movable-view direction="horizontal" class="view bg-red" ></movable-view>
+  <movable-view direction="vertical" class="view bg-green" ></movable-view>
+</movable-area>
+
+<view>固定位置</view>
+<view>设定x,y坐标，同事direction为none</view>
+<movable-area class="area">
+  <movable-view direction="none" class="view" x="50" y= "30" ></movable-view>
+</movable-area>
+

@@ -1,0 +1,14 @@
+.page-body-info {
+  align-items: center;
+  padding: 200rpx;
+}
+
+.display-area {
+  font-size: 40rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.font-loaded{
+  font-family: "BitStream Vera Serif Bold";
+}

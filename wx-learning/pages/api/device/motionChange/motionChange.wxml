@@ -1,0 +1,8 @@
+<view class="messageView">屏幕朝向：
+  <text>{{screen}}</text>
+  <view class="messageView">当前alpha：{{alpha}}</view>
+  <view class="messageView">当前beta：{{beta}}</view>
+  <view class="messageView">当前gamma：{{gamma}}</view>
+  <button type="primary" bindtap="startDeviceMotionListening">开始监听</button>
+  <button type="primary" bindtap="stopDeviceMotionListening">结束监听</button>
+</view>

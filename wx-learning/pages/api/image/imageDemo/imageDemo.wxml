@@ -1,0 +1,13 @@
+<button type="primary" bindtap="chooseImage">选择图片</button>
+<button type="primary" bindtap="getImageInfo">获取图片信息</button>
+<button type="primary" bindtap="previewImage">预览图片</button>
+<button type="primary" bindtap="downloadImage">下载图片</button>
+<button type="primary" bindtap="saveImage">保存图片到相册</button>
+
+<view>
+  <image class="preview-img" src="{{updateImages[0]}}"></image>
+</view>
+
+<view>
+  <image src="{{downloadImageUrl}}"></image>
+</view>

@@ -1,0 +1,8 @@
+.preview-img{
+  width: 20vw;
+  height: 15vh;
+}
+button{
+  width: 100% !important;
+  margin: 10rpx 0 !important;
+}

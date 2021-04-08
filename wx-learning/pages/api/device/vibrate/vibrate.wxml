@@ -1,0 +1,2 @@
+<button type="primary" bindtap="vibrateShort">短震动</button>
+<button type="primary" bindtap="vibrateLong">长震动</button>

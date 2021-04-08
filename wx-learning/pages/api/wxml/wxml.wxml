@@ -1,0 +1,4 @@
+<button type="primary" bindtap="test">test</button>
+<view class="test">
+  Lorem ipsum dolor sit amet.
+</view>

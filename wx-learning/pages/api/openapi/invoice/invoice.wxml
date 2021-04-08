@@ -1,0 +1,2 @@
+<button type="primary" bindtap="chooseInvoiceTitle">chooseInvoiceTitle</button>
+<button type="primary" bindtap="chooseInvoice">chooseInvoice</button>

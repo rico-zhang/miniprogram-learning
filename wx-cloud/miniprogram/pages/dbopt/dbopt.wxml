@@ -1,0 +1,104 @@
+<view class="container">
+  <view class="page-body">
+    <!-- 新增 -->
+    <view class="page-section">
+      <view class="page-section-title">数据录入操作</view>
+      <view class="page-section-content">
+        <form bindsubmit="addUser">
+          <view class="section-row">
+            <text>姓名:</text>
+            <input name="userName" class="input-style"></input>
+          </view>
+          <view class="section-row">
+            <text>年龄:</text>
+            <input name="userAge" class="input-style"></input>
+          </view>
+          <button type="primary" form-type="submit">数据库录入</button>
+        </form>
+      </view>
+    </view>
+
+    <!-- 获取 -->
+    <view class="page-section">
+      <view class="page-section-title">数据库获取数据</view>
+      <view class="page-section-content">
+        <view class="section-row" wx:for="{{userList}}" wx:key="index">
+          <view>id:{{item._id}}</view>
+          <view>用户姓名:{{item.name}}</view>
+          <view>用户年龄:{{item.age}}</view>
+        </view>
+        <button type="primary" bindtap="getUserRecord">数据库读取记录</button>
+      </view>
+    </view>
+
+    <!-- 单次更新 -->
+    <view class="page-section">
+      <view class="page-section-title">单条更新</view>
+      <view class="page-section-content">
+        <form bindsubmit="singleUpdate">
+          <view class="section-row">
+            <text>记录id:</text>
+            <input name="userId" class="input-style"></input>
+          </view>
+          <view class="section-row">
+            <text>新的姓名:</text>
+            <input name="userName" class="input-style"></input>
+          </view>
+          <view class="section-row">
+            <text>新的年龄:</text>
+            <input name="userAge" class="input-style"></input>
+          </view>
+          <button type="primary" form-type="submit">数据库更新</button>
+        </form>
+      </view>
+    </view>
+
+    <!-- 批次更新 -->
+    <view class="page-section">
+      <view class="page-section-title">批次更新</view>
+      <view class="page-section-title">[当旧的年龄大于多少时更新]</view>
+      <view class="page-section-content">
+        <form bindsubmit="batchUpdate">
+          <view class="section-row">
+            <text>旧的年龄:</text>
+            <input name="oldAge" class="input-style"></input>
+          </view>
+          <view class="section-row">
+            <text>新的年龄:</text>
+            <input name="userAge" class="input-style"></input>
+          </view>
+          <button type="primary" form-type="submit">数据库更新</button>
+        </form>
+      </view>
+    </view>
+
+    <!-- 单条删除 -->
+    <view class="page-section">
+      <view class="page-section-title">单条删除</view>
+      <view class="page-section-content">
+        <form bindsubmit="singleDelete">
+          <view class="section-row">
+            <text>记录id:</text>
+            <input name="userId" class="input-style"></input>
+          </view>
+          <button type="primary" form-type="submit">数据库删除</button>
+        </form>
+      </view>
+    </view>
+
+    <!-- 批次删除 -->
+    <view class="page-section">
+      <view class="page-section-title">批次删除</view>
+      <view class="page-section-title">[当旧的年龄大于多少时删除]</view>
+      <view class="page-section-content">
+        <form bindsubmit="batchDelete">
+          <view class="section-row">
+            <text>旧的年龄:</text>
+            <input name="oldAge" class="input-style"></input>
+          </view>
+          <button type="primary" form-type="submit">数据库删除</button>
+        </form>
+      </view>
+    </view>
+  </view>
+</view>

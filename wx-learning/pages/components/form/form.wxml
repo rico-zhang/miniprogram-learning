@@ -1,0 +1,90 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view>button</view>
+  <button size="mini">按钮</button>
+  <button size="mini" type="primary">按钮</button>
+  <button size="mini" type="warn">按钮</button>
+  <button size="mini" type="warn" plain>按钮</button>
+  <button size="mini" type="warn" disabled='{{true}}'>按钮</button>
+  <button size="mini" type="warn" disabled='{{false}}' loading="{{true}}">按钮</button>
+
+  <view>checkbox</view>
+  <checkbox value="101">101</checkbox>
+  <checkbox value="101" checked>101</checkbox>
+  <checkbox-group bindchange="checkGroupChange">
+    <checkbox value="101" checked>101</checkbox>
+    <checkbox value="102">102</checkbox>
+  </checkbox-group>
+  <checkbox-group>
+    <label wx:for="{{items}}" wx:key="value">
+      <checkbox value="{{item.value}}" checked="{{item.checked}}">{{item.value}}</checkbox>
+    </label>
+  </checkbox-group>
+
+
+  <view>editor</view>
+  <editor id="editor" placeholder="this is editor" style="border:1px solid red" show-img-toolbar show-img-size
+    show-img-resize></editor>
+
+  <view>input</view>
+  <!-- type 只是影响弹出键盘的类型 不影响输入的内容 -->
+  <input type="text" value="文本"></input>
+  <input type="number" value="number"></input>
+  <input type="idcard" value="idcard"></input>
+  <input type="digit" value="digit"></input>
+  <input type="text" password placeholder="密码" placeholder-style="color:red" placeholder-class=""></input>
+  <input type="text" disabled placeholder="disabled"></input>
+  <input type="text" focus="{{true}}" placeholder="focus" bindinput="inputEvent"></input>
+
+
+  <view>label</view>
+  <label>
+    可以内置 button checkbox radio switch
+  </label>
+
+  <view>picker</view>
+  <view>滚动选择器</view>
+  <picker mode="selector" value="{{pickerIndex}}" range="{{country}}" bindchange="pickerChange">
+    <view>当前选择{{country[pickerIndex]}}</view>
+  </picker>
+
+  <view>多列选择器</view>
+  <picker style="border:1px solid red" mode="multiSelector" value='{{multiIndex}}' range='{{multiArray}}'
+    bindchange='MultiPickerChange' bindcolumnchange='MultiPickerColumnChange'>
+    <view>当前选择了:</view>
+  </picker>
+
+  <view>时间选择</view>
+  <picker mode="time" start="09:00" end="21:00" value="{{time}}" bindchange="timePickerChange">
+    <view>当前选择时间{{time}}</view>
+  </picker>
+  
+  <view>日期选择</view>
+  <picker mode="date" start="2020-01-01" end="2020-03-01" value="{{date}}" fields="day" bindchange="datePickerChange">
+    <view>当前选择日期为{{date}}</view>
+  </picker>
+
+  <view>省市选择</view>
+  <picker mode="region" value="{{region}}" bindchange="regionPickerChange" custom-item="全部">
+    <view>当前选择省市为{{region}}</view>
+  </picker>
+
+  <view>slider滑动选择器</view>
+  <view>
+    <text>设置step</text>
+    <slider step="5" bindchange="sliderChange" show-value min="50" max="200"></slider>
+  </view>
+
+
+  <view>switch</view>
+  <switch checked bindchange="switchChange" type="checkbox"></switch>
+  <switch  type="checkbox"></switch>
+
+  <view>textarea</view>
+  <textarea value="this is textarea" style="border:1px solid red" ></textarea>
+  <textarea value="this is textarea auto-height " style="border:1px solid red" auto-height></textarea>
+
+
+  <input type="text" name="inputName"></input>
+  <button form-type="submit">submit</button>
+  <button form-type="reset">reset</button>
+</form>

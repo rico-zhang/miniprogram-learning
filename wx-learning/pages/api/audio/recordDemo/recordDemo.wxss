@@ -1,0 +1,53 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.speak-style {
+  position: fixed;
+  height: 240rpx;
+  width: 240rpx;
+  border-radius: 20rpx;
+  margin: auto;
+  background: #26a5ff;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.sound-tyle {
+  position: absolute;
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 45rpx;
+  margin-left: 45rpx;
+}
+
+.record-style {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 120rpx;
+  width: 100%;
+}
+
+.record-style .btn-style {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.board {
+  overflow: hidden;
+  border-bottom: 2rpx solid #26a5ff;
+}
+
+.cell {
+  display: flex;
+  margin: 20rpx;
+}
+
+.cell-db {
+  flex: 1;
+  position: relative;
+}

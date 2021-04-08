@@ -1,0 +1,1 @@
+<button type="primary" bindtap="getMenuButtonBoundingClientRect">获取菜单按钮(右上角胶囊按钮)位置信息</button>

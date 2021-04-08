@@ -1,0 +1,12 @@
+.container{
+  justify-content: center;
+  padding: 200rpx 0;
+}
+
+.container text{
+  font-size: 5vh;
+}
+
+button{
+  margin: 10rpx 0 !important;
+}

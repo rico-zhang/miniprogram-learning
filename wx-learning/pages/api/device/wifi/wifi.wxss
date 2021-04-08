@@ -1,0 +1,27 @@
+.text{
+  font-size: 5vw;
+}
+
+.form{
+  margin: 20rpx;
+}
+
+.section {
+  display: flex;
+  line-height:5vw;
+}
+
+.section text{
+  font-size: 30rpx;
+  margin: 10rpx 0;
+  padding-right: 20rpx;
+}
+
+.section  input{
+  height: 6vw;
+  border: 2rpx solid gray;
+  padding-left: 10rpx;
+}
+button{
+  margin: 10rpx 0;
+}

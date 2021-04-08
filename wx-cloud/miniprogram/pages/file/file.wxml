@@ -1,0 +1,19 @@
+<view class="container">
+  <button bindtap="uploadImg" type="primary">上传图片至云存储</button>
+  <view>选择的图片</view>
+  <image src="{{chooseImg}}"></image>
+  <view>上传的图片</view>
+  <image src="{{upImg}}"></image>
+
+  <button bindtap="downLoadImg" type="primary">从云存储下载图片</button>
+  <view>下载的图片</view>
+  <image src="{{downImg}}"></image>
+
+  <button bindtap="deleteImg" type="primary">从云存储删除图片</button>
+
+  <button bindtap="getTempFileURL" type="primary">从云存储获取路径</button>
+  <view>获取路径的图片</view>
+  <view wx:for="{{tempImgList}}" wx:key="index">
+    <image src="{{item}}"></image>
+  </view>
+</view>

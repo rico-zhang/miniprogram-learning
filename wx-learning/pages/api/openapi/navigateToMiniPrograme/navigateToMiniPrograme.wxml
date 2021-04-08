@@ -1,0 +1,1 @@
+<button type="primary" bindtap="navigateToMiniProgram">跳转到其他小程序</button>

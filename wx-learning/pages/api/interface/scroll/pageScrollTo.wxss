@@ -1,0 +1,23 @@
+.page {
+  height: 1600rpx;
+  background-color: red;
+}
+
+text {
+  font-size: 80rpx;
+}
+
+.gotop {
+  position: fixed;
+  bottom: 50rpx;
+  right: 32rpx;
+  width: 100rpx;
+  height: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 21rpx;
+  font-weight: bold;
+  background-color: wheat;
+}

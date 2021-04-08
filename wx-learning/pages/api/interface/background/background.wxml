@@ -1,0 +1,4 @@
+<view class="container">
+  <button type="primary" bindtap="setBackgroundColor">setBackgroundColor</button>
+  <button type="primary" bindtap="setBackgroundTextStyle">setBackgroundTextStyle</button>
+</view>

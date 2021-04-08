@@ -1,0 +1,17 @@
+<view class="container">
+  <view>通过缓存传递参数</view>
+  <button type="primary" bindtap="storage">缓存带参跳转</button>
+
+  <view>通过navigator的url传参</view>
+  <navigator url="/pages/api/storage/storage/storage?title=hello">
+    <button type="primary">
+      navigator传参
+    </button>
+  </navigator>
+
+  <view>通过api-url传递参数</view>
+  <button type="primary" bindtap="wxapi">api-url传递参数</button>
+
+  <view>通过api-event传递参数</view>
+  <button type="primary" bindtap="wxapiEvent">api-event传递参数</button>
+</view>

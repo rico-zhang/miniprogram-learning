@@ -1,0 +1,7 @@
+<navigator target="self" url="/pages/form/form" open-type="navigate">跳转操作</navigator>
+<navigator target="miniProgram">小程序之间进行跳转</navigator>
+
+<button bindtap="tabbarNavigator">tabbar跳转</button>
+
+<button bindtap="navigate">navigate跳转</button>
+

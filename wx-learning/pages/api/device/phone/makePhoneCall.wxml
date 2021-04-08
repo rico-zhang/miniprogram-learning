@@ -1,0 +1,2 @@
+<input placeholder="请输入手机号码" type="number" bindblur="getPhoenNumber"></input>
+<button type="primary" bindtap="makePhoneCall">拨打电话</button>

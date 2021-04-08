@@ -1,0 +1,1 @@
+<button type="primary" bindtap="getAccountInfo">获取账号信息</button>

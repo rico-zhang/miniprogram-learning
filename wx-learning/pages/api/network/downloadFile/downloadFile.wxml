@@ -1,0 +1,4 @@
+<button bindtap="downloadOpt">下载</button>
+<button bindtap="downloadAbort">下载终止</button>
+<progress percent="{{percent}}" show-info active active-mode="forwards"></progress>
+<image src="{{src}}"></image>

@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="page-section">
+    <view class="bold">loading组件</view>
+    <button type="warn" bindtap="controlLoading">控制loading</button>
+    <input type="text" placeholder="loading状态下是无法输入的"></input>
+    <loading hidden="{{loadingHidden}}">加载中...</loading>
+  </view>
+
+  <view class="page-section">
+    <view class="bold">动态loading... (showToast)</view>
+    <button type="warn" bindtap="showToast">开启showToast</button>
+    <input type="text" placeholder="是否可输入取决于mask参数"></input>
+  </view>
+
+  <view class="page-section">
+    <view class="bold">动态loading... (showLoading)</view>
+    <button type="warn" bindtap="showLoading">开启showLoading</button>
+    <input type="text" placeholder="是否可输入取决于mask参数"></input>
+  </view>
+
+  <view class="page-section">
+    <view class="bold">其实交互</view>
+    <button type="warn" bindtap="showActionSheet">开启ActionSheet</button>
+    <button type="warn" bindtap="showModal">开启showModal</button>
+  </view>
+</view>

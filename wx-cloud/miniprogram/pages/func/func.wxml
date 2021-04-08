@@ -1,0 +1,1 @@
+<button type="primary" bindtap="callFunc">调用云函数</button>

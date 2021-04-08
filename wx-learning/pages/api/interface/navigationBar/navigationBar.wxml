@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="page-section">
+    <view>动态设置导航条</view>
+    <button type="primary" bindtap="setNavigationBar">设置导航条</button>
+  </view>
+</view>

@@ -1,0 +1,2 @@
+<button type="primary" bindtap="startDrop">开始下拉</button>
+<button type="primary" bindtap="stopDrop">停止下拉</button>

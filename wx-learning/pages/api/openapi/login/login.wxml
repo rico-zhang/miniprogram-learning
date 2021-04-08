@@ -1,0 +1,2 @@
+<button type="primary" bindtap="login">登录</button>
+<button type="primary" bindtap="getcompInfo">业务请求</button>

@@ -1,0 +1,19 @@
+.container {
+  padding: 40rpx 0;
+  background-color: gray;
+}
+
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-area {
+  width: 80%;
+  background-color: #fff;
+}
+
+.section {
+  width: 100%;
+  background-color: #fff;
+}

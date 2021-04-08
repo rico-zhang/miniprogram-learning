@@ -1,0 +1,76 @@
+<!-- scroll-view -->
+<view>
+  <scroll-view class="bg-scroll" scroll-x>
+    <view class="nav">
+      <navigator url=''>国际新闻</navigator>
+      <navigator url=''>国内新闻</navigator>
+      <navigator url=''>社会新闻</navigator>
+      <navigator url=''>娱乐新闻</navigator>
+      <navigator url=''>IT新闻</navigator>
+      <navigator url=''>八卦新闻</navigator>
+      <navigator url=''>教育新闻</navigator>
+    </view>
+  </scroll-view>
+</view>
+
+<!-- swiper -->
+<view>
+  <swiper autoplay interval="3000" duration="500" indicator-dots circular current="1" bindchange="currentChange">
+    <swiper-item>
+      <navigator url="/pages/reg/reg">
+        <image src="https://ns-strategy.cdn.bcebos.com/ns-strategy/upload/fc_big_pic/part-00434-1519.jpg"></image>
+      </navigator>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3777560079,2844199458&fm=26&gp=0.jpg">
+      </image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 新闻列表 swiper -->
+<swiper>
+  <swiper-item>
+    <view class="view-con">
+      <image src="/image/dom-tree.png" class="img"></image>
+      <view class="news-title">
+        <view>微信课程滑块容器学习</view>
+        <text class="fnt-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores eaque doloremque
+          temporibus repudiandae dolorem tenetur eligendi consequuntur id doloribus nam!</text>
+      </view>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class="view-con">
+      <image src="/image/dom-tree.png" class="img"></image>
+      <view class="news-title">
+        <view>微信课程滑块容器学习</view>
+        <text class="fnt-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores eaque doloremque
+          temporibus repudiandae dolorem tenetur eligendi consequuntur id doloribus nam!</text>
+      </view>
+    </view>
+  </swiper-item>
+</swiper>
+
+<!-- 新闻列表 scroll-view -->
+<scroll-view scroll-x class="bg-scroll">
+  <view class="nav" style="height:400rpx">
+    <view class="view-con">
+      <image src="/image/dom-tree.png" class="img"></image>
+      <view class="news-title">
+        <view>微信课程滑块容器学习</view>
+        <text class="fnt-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores eaque doloremque
+          temporibus repudiandae dolorem tenetur eligendi consequuntur id doloribus nam!</text>
+      </view>
+    </view>
+
+    <view class="view-con">
+      <image src="/image/dom-tree.png" class="img"></image>
+      <view class="news-title">
+        <view>微信课程滑块容器学习</view>
+        <text class="fnt-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores eaque doloremque
+          temporibus repudiandae dolorem tenetur eligendi consequuntur id doloribus nam!</text>
+      </view>
+    </view>
+  </view>
+</scroll-view>

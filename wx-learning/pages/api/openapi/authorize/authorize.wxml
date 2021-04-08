@@ -1,0 +1,1 @@
+<button type="primary" bindtap="authorize">授权录音功能</button>

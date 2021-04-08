@@ -1,0 +1,4 @@
+<view bindtap="tapName">click me </view>
+<view bindtap="{{eventFunc}}">click me </view>
+<view bind:tap="{{eventFunc}}">click me </view>
+<!-- bind catch capture-bind capture-catch mut-bind -->

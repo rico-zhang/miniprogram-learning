@@ -1,0 +1,4 @@
+<view class="container">
+  <view>从基础库 1.9.9 开始，本接口停止维护</view>
+  <button bindtap="setTopBarText" type="primary">置顶帖文本设定</button>
+</view>

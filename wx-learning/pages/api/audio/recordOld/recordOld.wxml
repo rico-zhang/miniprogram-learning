@@ -1,0 +1,2 @@
+<button bindtap="recordVoice">录制录音</button>
+<button bindtap="playVoice">播放录音</button>

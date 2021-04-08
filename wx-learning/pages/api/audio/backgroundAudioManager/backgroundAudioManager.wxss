@@ -1,0 +1,17 @@
+.section {
+  width: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section image {
+  width: 280rpx;
+  height: 280rpx;
+  border-radius: 50%;
+}
+
+button{
+  width: 100% !important;
+  margin-bottom: 10rpx;
+}

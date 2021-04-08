@@ -1,0 +1,11 @@
+.bgaudio{
+  width: 350rpx;
+  height: 350rpx;
+  margin-bottom: 100rpx;
+}
+
+.control-view image{
+  height: 64rpx;
+  width: 64rpx;
+  margin: 30rpx;
+}

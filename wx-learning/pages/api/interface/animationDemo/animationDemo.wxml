@@ -1,0 +1,9 @@
+<view class="animition">
+  <view class="dis-flex">
+    <view class="flex3" animation="{{lAnimation}}">{{start}}</view>
+    <view class="flex1" bindtap="trigger">
+      <em class="iconfont switch-icon"></em>
+    </view>
+    <view class="flex3" animation="{{rAnimation}}">{{end}}</view>
+  </view>
+</view>

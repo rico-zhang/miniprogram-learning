@@ -1,0 +1,2 @@
+<button type="primary" bindtap="getUserProfile">getUserProfile</button>
+<button type="primary" bindtap="getUserInfo">getUserInfo</button>

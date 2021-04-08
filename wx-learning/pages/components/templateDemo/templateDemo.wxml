@@ -1,0 +1,26 @@
+<!-- 定义和调用在同一个文件中 -->
+<template name="student">
+  <view>name:{{name}}</view>
+  <view>age:{{age}}</view>
+</template>
+
+<template name="student1">
+  <view>name:{{studentInfo.name}}</view>
+  <view>age:{{studentInfo.age}}</view>
+</template>
+
+<template name="student2">
+  <view>name:{{name}}</view>
+  <view>age:{{age}}</view>
+</template>
+
+<template is="student" data="{{name,age}}"></template>
+<template is="student1" data="{{studentInfo}}"></template>
+<template is="student2" data="{{...studentInfo}}"></template>
+
+<!-- 定义和调用不在同一个文件中 -->
+<import src="/template/studentouter1.wxml"></import>
+<import src="/template/studentouter2.wxml"></import>
+
+<template is="studentouter{{index}}" data="{{...studentInfo}}"></template>
+<include src="/template/footer.wxml" data="{{...studentInfo}}"></include>

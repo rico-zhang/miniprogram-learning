@@ -1,0 +1,17 @@
+progres:进度条
+<view>百分数</view>
+<progress percent="20" show-info></progress>
+<progress percent="40" stroke-width="12"></progress>
+<progress percent="60" color="pink"></progress>
+<progress percent="80" active></progress>
+<progress percent="100" active stroke-width="4" show-info>
+  <!-- 内容会出现在进度条后面 -->
+  <view class="title-line">111</view>
+</progress>
+
+<view>
+  <button type="primary" size="mini" bindtap="startDown">开始下载</button>
+  <text>下载进度</text>
+  <progress percent="{{precent}}" show-info active stroke-width='14'  border-radius="10"
+  color="red" activeColor="blue" active-mode="forwards" bindactiveend="activeEnd"></progress>
+</view>

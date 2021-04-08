@@ -1,0 +1,14 @@
+.img {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.video-screen {
+  width: 100%;
+  position: relative;
+}
+.pause,.play{
+  position: absolute;
+  left:25rpx ;
+  top: 250rpx;
+}

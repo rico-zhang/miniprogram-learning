@@ -1,0 +1,7 @@
+<view>
+  <view>指南</view>
+  https://developers.weixin.qq.com/miniprogram/dev/framework/workers.html
+
+  <button type="primary" bindtap="tap">触发主线程</button>
+
+</view>

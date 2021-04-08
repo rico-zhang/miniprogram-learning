@@ -1,0 +1,4 @@
+<button type="primary" bindtap="getLocation">getLocation</button>
+<button type="primary" bindtap="openLocation">openLocation</button>
+<button type="primary" bindtap="chooseLocation">chooseLocation</button>
+<button type="primary" bindtap="choosePoi">choosePoi</button>

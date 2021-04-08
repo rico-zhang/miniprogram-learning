@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="btn-area">
+    <navigator url="/pages/api/storage/storage/storage">跳转到新的页面</navigator>
+    <view class="section">
+      <input placeholder="输入信息" bindblur="getInput"></input>
+      <button bindtap="storageData">缓存数据</button>
+    </view>
+  </view>
+</view>

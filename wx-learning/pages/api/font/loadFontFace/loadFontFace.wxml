@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="page-body">
+    <view class="section">
+      <view class="page-body-info display-area {{loaded?'font-loaded':''}}">
+        font
+      </view>
+      <view class="btn-area">
+        <button type="primary" bindtap="loadFontFace">加载字体</button>
+      </view>
+    </view>
+  </view>
+</view>

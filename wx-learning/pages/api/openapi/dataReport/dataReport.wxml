@@ -1,0 +1,1 @@
+<button type="primary" bindtap="reportMonitor">数据上报</button>

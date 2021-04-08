@@ -1,0 +1,4 @@
+<template name="studentouter1">
+  <view>name:{{name}}</view>
+  <view>age:{{age}}</view>
+</template>

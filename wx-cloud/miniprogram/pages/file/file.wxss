@@ -1,0 +1,14 @@
+.container{
+  height: auto;
+}
+page{
+  height: auto;
+}
+button{
+  margin: 10rpx auto;
+}
+
+image{
+  width: 400rpx;
+  height: 400rpx;
+}

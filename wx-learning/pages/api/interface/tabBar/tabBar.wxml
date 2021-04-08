@@ -1,0 +1,10 @@
+<view class="container">
+  <button type="primary" bindtap="showTabBar">showTabBar</button>
+  <button type="primary" bindtap="hideTabBar">hideTabBar</button>
+  <button type="primary" bindtap="showTabBarRedDot">showTabBarRedDot</button>
+  <button type="primary" bindtap="hideTabBarRedDot">hideTabBarRedDot</button>
+  <button type="primary" bindtap="setTabBarBadge">setTabBarBadge</button>
+  <button type="primary" bindtap="removeTabBarBadge">removeTabBarBadge</button>
+  <button type="primary" bindtap="setTabBarStyle">setTabBarStyle</button>
+  <button type="primary" bindtap="setTabBarItem">SetTabBarItem</button>
+</view>
